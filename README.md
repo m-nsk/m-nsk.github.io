@@ -1,2 +1,2 @@
-# msk
+# minSK
 personal website
