@@ -1,0 +1,115 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 800px;
+}
+
+.u-section-1 .u-layout-wrap-1 {
+  margin-top: 190px;
+  margin-bottom: 60px;
+}
+
+.u-section-1 .u-image-1 {
+  min-height: 420px;
+  background-image: url("images/yeouido.jpg");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-container-layout-1 {
+  padding: 30px 60px;
+}
+
+.u-section-1 .u-layout-cell-2 {
+  min-height: 420px;
+}
+
+.u-section-1 .u-container-layout-2 {
+  padding: 30px 60px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 0 261px 0 0;
+}
+
+.u-section-1 .u-text-2 {
+  font-size: 0.9375rem;
+  margin: 20px 0 0;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 726px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 346px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 346px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 161px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 645px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 265px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .u-section-1 .u-layout-cell-2 {
+    min-height: 100px;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 111px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 878px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 398px;
+  }
+
+  .u-section-1 .u-container-layout-1 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .u-section-1 .u-container-layout-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 731px;
+  }
+
+  .u-section-1 .u-image-1 {
+    min-height: 251px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 0;
+  }
+}
