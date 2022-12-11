@@ -1,3 +1,3 @@
 # [minjae.xyz](https://minjae.xyz/)
-## Personal Website
+### Personal Website
 Written using HTML, CSS, Bootstrap, and JS
