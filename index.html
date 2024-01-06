@@ -45,7 +45,8 @@
     <!-- Navbar End -->
 
     <!-- Main -->
-    <div class="container sy-auto my-auto ly-auto cover-margin">
+    <div id="particles-js" class="bg"></div>
+    <div class="container sy-auto my-auto ly-auto">
         <div class="row d-flex justify-content-center align-items-center bg-dark">
             <div class="col-md-6 g-0">
                 <img src="files/images/portrait.jpg" alt="Portrait" class="img-fluid">
@@ -65,11 +66,10 @@
                     <br>Please feel free to contact me for any inquiries.
                 </p>
             </div>
-            <!-- <div class="col-md-1"></div> -->
         </div>
     </div>
     <!-- Main End -->
-
+    
     <!-- Footer -->
     <footer class="flex-shrink-0 py-2 bg-dark">
         <div class="container text-center">
@@ -104,6 +104,16 @@
         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/e76cc909c4.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    
+    <!-- Particles.js -->
+    <script>
+        particlesJS.load('particles-js', './files/particlesjs-config.json', function(){
+            console.log("Particles config loaded");
+        });
+    </script>
+    <!-- Particles.js end -->
+    
     <!-- Scripts End -->
 </body>
 
