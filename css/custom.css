@@ -1,48 +1,75 @@
 .bg {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
 }
 
 .bg-portrait {
-    min-height: 100%;
-    background-image: url("../files/images/portrait.jpg");
-    background-position: center;
-    background-color: #000;
-    background-repeat: no-repeat;
-    background-size: cover;
+  min-height: 100%;
+  background-image: url("../files/images/portrait.jpg");
+  background-position: center;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .himage-container {
-    position: relative;
-    width: 75%;
+  position: relative;
+  width: 75%;
 }
 
 .himage {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: 0.3s ease;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.3s ease;
 }
 
 .htext {
-    transition: 0.3s ease;
-    opacity: 0;
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    transform: translate(-50%, -90%);
-    -ms-transform: translate(-50%, -90%);
-    text-align: center;
+  transition: 0.3s ease;
+  opacity: 0;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+  -ms-transform: translate(-50%, -90%);
+  text-align: center;
 }
 
 .himage-container:hover .himage {
-    opacity: 0.5;
+  opacity: 0.8;
 }
 
 .himage-container:hover .htext {
-    opacity: 1;
+  opacity: 1;
+}
+
+.bg {
+  background-color: #000 !important;
+}
+
+.bg-primary {
+  background-color: #7981da48 !important;
+  backdrop-filter: blur(7px);
+}
+
+.bg-dark {
+  background-color: #50505036 !important;
+  backdrop-filter: blur(7px);
+}
+
+.bg-darker {
+  background-color: #00000036 !important;
+  backdrop-filter: blur(7px);
+}
+
+.body {
+  background-color: #000 !important;
+}
+
+.bg-black {
+  background-color: #000 !important;
 }
